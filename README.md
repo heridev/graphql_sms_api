@@ -11,15 +11,19 @@ bundle install
 ```
 bundle exec rake db:setup
 ```
-4. Run the server
+4. Create some random data
+```
+bundle exec rake db:seed
+```
+5. Run the server
 ```
 rails server
 ```
-5. Open the page
+6. Open the page
 ```
 http://localhost:3000
 ```
-6. Begin running GraphQL queries using something like POSTMAN!!
+7. Begin running GraphQL queries using something like POSTMAN!!
 ```
 Method: POST
 URL: http://localhost:3000/graphql

@@ -1,24 +1,3 @@
-# README
+# graphql_sms_api
+One of the backend API versions for smsforall.org, this one will be using GraphQL instead of the traditional RESTful approach
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

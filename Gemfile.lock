@@ -78,6 +78,13 @@ GEM
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    graphql (2.1.1)
+    graphql-batch (0.5.3)
+      graphql (>= 1.12.18, < 3)
+      promise.rb (~> 0.7.2)
+    graphql-client (0.18.0)
+      activesupport (>= 3.0)
+      graphql
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     io-console (0.6.0)
@@ -110,6 +117,7 @@ GEM
     nokogiri (1.15.4-x86_64-darwin)
       racc (~> 1.4)
     pg (1.5.4)
+    promise.rb (0.7.4)
     psych (5.1.0)
       stringio
     puma (5.6.7)
@@ -167,6 +175,9 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  graphql
+  graphql-batch
+  graphql-client
   pg
   puma (~> 5.0)
   rails (~> 7.0.8)

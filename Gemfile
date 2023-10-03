@@ -8,6 +8,11 @@ gem 'puma', '~> 5.0'
 gem 'tzinfo-data', platforms: %i[ mingw mswin x64_mingw jruby ]
 gem 'bootsnap', require: false
 
+# GraphQL gems 
+gem 'graphql'
+gem 'graphql-client'
+gem 'graphql-batch'
+
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 

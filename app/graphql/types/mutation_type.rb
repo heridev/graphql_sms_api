@@ -2,11 +2,10 @@
 
 module Types
   class MutationType < Types::BaseObject
-    # TODO: remove me
-    field :test_field, String, null: false,
-      description: "An example field added by the generator"
-    def test_field
-      "Hello World"
-    end
+    # if we begin adding more we can group them by using a module similar to queries
+    field :create_sms_notification, mutation: Mutations::CreateSmsNotificationMutation
+
+    # in progress registration of users
+    # field :register_new_user, mutation: Mutations::RegisterNewUserMutation
   end
 end

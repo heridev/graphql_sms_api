@@ -34,3 +34,7 @@ query {
     }
 }
 ```
+
+## How to play with the GraphQL endpoint using POSTMAN
+https://github.com/heridev/graphql_sms_api/wiki/Playing-with-the-GraphQL-using-POSTMAN
+
